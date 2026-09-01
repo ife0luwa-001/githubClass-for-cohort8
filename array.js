@@ -93,7 +93,13 @@ console.log(findindexofdark)
 //reduce method
 const nums = [700, 300, 500, 1000, 1200]
 const sum = nums.reduce((accumulator, currentvalue) => accumulator + currentvalue,)
-console.log(sum)
+console.log(sum);
 
 const multiplynums = nums.reduce((accumulator, currentvalue) => accumulator * currentvalue, 1)
-console.log(multiplynums)
+console.log(multiplynums);
+
+//version control, staging and commiting 
+//git add .
+//git add array.js
+//git commit -m "teaching the student the ..."
+//working directory is where you are currently working on 
