@@ -44,4 +44,24 @@ let hisName = employee.name;
 let hisRole = employee.role;
 
 //with destructuring(shortest way)
-const { name, role, salary } = employee;
+const { name:username, role:Job, salary } = employee;
+
+
+//using spread function
+let DNA = {
+    genders: "XX",
+    complexion: "fair",
+}
+
+let offSpring = {
+    ...DNA,
+    name: "Aremu David Ayomide",
+    age: 19,
+}
+
+console.log(offSpring)
+
+//iterating over object
+console.log(Object.keys(offSpring));
+console.log(Object.values(offSpring));
+console.log(Object.entries(offSpring));
