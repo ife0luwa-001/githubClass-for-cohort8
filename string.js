@@ -33,3 +33,12 @@ console.log(filename.startsWith("report"));
 console.log(filename.startsWith("draft"));
 console.log(filename.endsWith(".pdf"));
 console.log(filename.endsWith(".docs"));
+
+
+const extractExample = "David"
+console.log(extractExample.slice(0, 3)); // "Est"
+console.log(extractExample.slice(3));    // "her"
+console.log(extractExample.slice(-3));  // "her"
+console.log(extractExample.substring(0, 3)); // "Est"
+console.log(extractExample.substring(3));    // "her"
+console.log(extractExample.substring(-3));  // "Esther" (negative index treated as 0)
