@@ -14,4 +14,22 @@ console.log(trimExample.trim());
 console.log(trimExample.trimStart());
 console.log(trimExample.trimEnd());
 
-let filename = "report_final_2024.pdf"
+let fullName = "Aremu David Ayomide"
+function info (Fn){
+    return Fn.toUpperCase
+}
+console.log(info(fullName))
+
+//using trim function 
+const friend = "   Dominion   " //this is to learn the uses of trim, trimStart and trimEnd
+console.log(friend.trim());
+console.log(friend.trimStart());
+console.log(friend.trimEnd());
+
+//startsWith(),  endsWith()
+let filename = "report_final_2024.pdf";
+
+console.log(filename.startsWith("report"));
+console.log(filename.startsWith("draft"));
+console.log(filename.endsWith(".pdf"));
+console.log(filename.endsWith(".docs"));

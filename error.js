@@ -47,7 +47,7 @@ function registerStudent(name, age){
         if (age < 16 || age > 60) {
             throw new Error ("Age must be between 16 & 60. Got: " + age)
         }
-        else {
+        if (!name && !age) {
             throw new Error ("Both fiels cannot be empty")
         }
         console.log("student registered: " + name + ", Age: " + age);
@@ -58,5 +58,4 @@ function registerStudent(name, age){
 
 //registerStudent("David", 19);
 //registerStudent("", 32);
-//registerStudent("Deborah", 13);
-registerStudent("", );
+registerStudent("Deborah", 13);
