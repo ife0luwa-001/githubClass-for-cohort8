@@ -103,3 +103,14 @@ console.log(multiplynums);
 //git add array.js
 //git commit -m "teaching the student the ..."
 //working directory is where you are currently working on 
+
+
+let First_daughter = {
+    name: "Aremu",
+    first_name: "Dominion",
+    university: "OAU",
+    course: "Law",
+    qualification: "LLB",
+}
+
+console.log(First_daughter);
