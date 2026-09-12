@@ -29,15 +29,16 @@ console.log(students.indexOf("Sara"));     //tell you where the item in an array
 students.reverse()
 console.log(students)
 students.sort()
+console.log(students)
 console.log(students.slice(1, 3))
 console.log(students.splice(1, 2))
 
 //replace() & replaceAll()
 //replace ---- it replace text in a string
-const stringText = "Uzoma is a fine girl, Uzoma is so smart and cute and Uzoma is a software developer"
-console.log(stringText.replace("Uzoma", "She"))
+const stringText = "David is an handsome guy, David is so smart and cute and David is a software developer"
+console.log(stringText.replace("David", "He"))
 //replaceAll
-console.log(stringText.replaceAll("Uzoma", "She"))
+console.log(stringText.replaceAll("David", "He"))
 
 function wordcheck(word){
     return word === word.split("").reverse().join("")? "Yes it is a palindrome" : "No it is not a palindrome"
@@ -77,6 +78,8 @@ console.log(doubled)
 //filter method for filtering out items that meet or align with special conditions
 const odd_number = numbers.filter((num) => num % 2 !== 0)
 console.log(odd_number)
+const even_number = numbers.filter((num) => num % 2 == 0)
+console.log(even_number)
 
 const complexion = ["Dark", "Medium", "Fair", "Dark", "Fair"]
 const darkComplexion = complexion.filter((item) => item === "Dark")  //item is the call back function and it is going to filter only "dark" out alone

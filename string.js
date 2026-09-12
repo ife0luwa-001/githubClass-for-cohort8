@@ -36,9 +36,9 @@ console.log(filename.endsWith(".docs"));
 
 
 const extractExample = "David"
-console.log(extractExample.slice(0, 3)); // "Est"
-console.log(extractExample.slice(3));    // "her"
-console.log(extractExample.slice(-3));  // "her"
-console.log(extractExample.substring(0, 3)); // "Est"
-console.log(extractExample.substring(3));    // "her"
-console.log(extractExample.substring(-3));  // "Esther" (negative index treated as 0)
+console.log(extractExample.slice(0, 3)); // "Dav"
+console.log(extractExample.slice(3));    // "id"
+console.log(extractExample.slice(-3));  // "vid"
+console.log(extractExample.substring(0, 3)); // "Dav"
+console.log(extractExample.substring(3));    // "id"
+console.log(extractExample.substring(-3));  // "David" (negative index treated as 0)
